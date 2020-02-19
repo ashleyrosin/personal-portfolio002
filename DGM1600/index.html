@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AshleyPortfolio</title>
+    <link href="/DGM1600/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15fbfb97c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav id="navbar">
@@ -12,21 +14,51 @@
                 <a href="#welcome-section">About</a>
             </li>
             <li>
-                <a href="#welcome-section">Projects</a>
+                <a href="#projects">Projects</a>
             </li>
             <li>
-                <a href="#welcome-section">Contact</a>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
-    <section id= "welcome-section"><h1>Hi, welcome to my portfolio!</h1></section>
+    <section id= "welcome-section">
+        <h1>Hi, welcome to my portfolio!</h1>
+        <h2>UX/UI Designer</h2>
+        </section>
     <section id="projects">
-
+        <h1 class="project-h1">These are some of my projects</h1>
+        <div id="project-list">
+            <a href="starwars/starwars.html" target="_blank">
+        <figure class="project-tile">
+            <img class="project-pic" src="img/rey.jpg"
+                 alt="Star Wars Poster">
+            <figcaption>Star Wars Page</figcaption>
+        </figure>
+    </a>
+        <figure class="project-tile">
+            <a href="/valentine/valentine.html">
+            <img class="project-pic" src="/DGM1600/img/valentine.jpg"
+                 alt="valentine">
+            <figcaption>Valentine Poem Generator</figcaption>
+        </figure>
+    </a>
+        <figure class="project-tile">
+            <img class="project-pic" src="img/uvu.jpg"
+                 alt="uvu logo">
+            <figcaption>Placeholder</figcaption>
+            </figure>
+        </div>
     </section>
     <section id="contact">
-        
+        <a href=""><i class="fab fa-linkedin"></i> Linkedin</a>
+        <a id="profile-link" href="https://github.com/ashleyrosin" target="_blank"><i class="fab fa-github"></i> Github</a>
+        <a href=""><i class="fab fa-instagram"></i> Instagram</a>
+        <a href=""><i class="fas fa-envelope"></i> Email Me</a>
+        <a href=""><i class="fas fa-mobile"></i> Call me</a>
     </section>
-    <footer></footer>
+    <footer>
+        <p>&copy; Ashley Rice Designs 2020</p>
+    </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
