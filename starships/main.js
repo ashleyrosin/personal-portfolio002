@@ -9,6 +9,9 @@ function populateNav(starships) {
 
     let anchorWrap = document.createElement('a')
     anchorWrap.href = '#'
+    anchorWrap.addEventListener('click', event => {
+        console.log(event)
+    })
 
 let listItem = document.createElement('li')
 listItem.textContent = starship.name

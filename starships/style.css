@@ -5,7 +5,7 @@
 a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: darkblue;
+    color: black;
 }
 
 li {
@@ -21,6 +21,3 @@ li {
     padding-right: 1rem;
 }
 
-.main {
-
-}
