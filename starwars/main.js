@@ -1,7 +1,7 @@
-import { films } from '../data/films.js'
+
 import { people } from '../data/people.js'
 
-const greetingDiv = document.querySelector('.greeting')
+const gallery = document.querySelector('.gallery')
 const maleButton = document.querySelector('#maleButton')
 const femaleButton = document.querySelector('#femaleButton')
 const otherButton = document.querySelector('#otherButton')
@@ -39,9 +39,15 @@ function getCharNumber(url) {
     return url.slice(start, end)
 }
 
-//getCharNumber("https:swapi.co/api/people/1/")
+function removeChildren(element) {
+    while (element.firstChild) {
+        element.removeChild(element.firstChild);
+    }
+
+}
 
 function populateDOM(characters) {
+    removeChildren(gallery)
     characters.forEach(person => {
      //need to extract the number from the person.url property
      let charNum = getCharNumber(person.url)
@@ -62,6 +68,6 @@ imageItem.addEventListener('click', event => {
     console.log(event)
 })
         anchorWrap.appendChild(imageItem)
-        greetingDiv.appendChild(anchorWrap)
+        gallery.appendChild(anchorWrap)
     })
 }
