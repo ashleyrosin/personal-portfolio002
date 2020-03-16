@@ -9,7 +9,7 @@ const shipView = document.querySelector('.main')
 
 const dialog = document.querySelector('.modal')
 const closeButton = document.querySelector('.modal-close')
-const modalBackground = document.querySelector('modal-background')
+const modalBackground = document.querySelector('.modal-background')
 
 closeButton.addEventListener('click', () => {
     dialog.classList.toggle("is-active")

@@ -12,3 +12,4 @@ export function removeChildren(element) {
         element.removeChild(element.firstChild);
     }
 }
+
