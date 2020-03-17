@@ -13,15 +13,26 @@ a > img {
 
 button {
     font-size: 1rem;
-    background-color: blueviolet;
     border-radius: 10px;
-    border-color: white;
     padding: 10px;
-    
+    color: white;
+    background-color: black;
+    border: 2px solid purple;
+  
 }
 
+button:hover {
+    background-color: rgb(196, 106, 196);
+    color: white;
+    transition-duration: 0.4s;
+  }
+
 h1 {
-    color : white;
+    border-style:solid;
+    border-color: white;
     text-align: center;
-    font-family: 'Star Jedi', arial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: yellow;
+    margin-left: 30rem;
+    margin-right: 30rem;
 }
