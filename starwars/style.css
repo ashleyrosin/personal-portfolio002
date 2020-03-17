@@ -16,9 +16,11 @@ button {
     background-color: blueviolet;
     border-radius: 10px;
     border-color: white;
-    padding: 4px;
+    padding: 10px;
+    
 }
 
 h1 {
     color : white;
+    text-align: center;
 }
