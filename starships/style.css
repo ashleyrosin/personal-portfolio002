@@ -8,15 +8,16 @@ header, footer {
     justify-content: center;
     font-size: 2rem;
     color: white;
-    font-family: 'Star Jedi', arial;
+    margin: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a {
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
-    
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 a:hover {
@@ -26,6 +27,7 @@ a:hover {
 li {
     list-style-type: none;
     text-align: center;
+    margin-left: 1rem;
     
 }
 
@@ -41,5 +43,10 @@ li {
     margin-right: 1rem;
 }
 
-
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+  }
 
