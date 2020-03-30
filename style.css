@@ -89,7 +89,7 @@ h2 {
 #contact {
     display: flex;
     justify-content: space-evenly;
-    margin: 6rem;
+    margin: 6.5rem;
     flex-wrap: wrap;
 }
 
