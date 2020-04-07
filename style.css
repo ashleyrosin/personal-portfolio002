@@ -37,20 +37,13 @@ body {
 }
 
 .hero {
-    /* Sizing */
     width: 100vw;
     height: 100vh;
-    
-    /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* Text styles */
     text-align: center;
-    color: gray; /* ADD THIS LINE */
-    
-    /* Background styles */
+    color: gray; 
     background-image: url('https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
     background-position: center center;
@@ -59,13 +52,9 @@ body {
 }
 
 .hero h1 {
-    /* Text styles */
     font-size: 5em;
-    
-    /* Margins */
     margin-top: 0;
     margin-bottom: 0;
-
     color: black;
     font-size: 3em;
     font-family: sans-serif;
@@ -81,27 +70,18 @@ body {
 }
 
 .hero .btn {
-    /* Positioning and sizing */
     display: block;
     width: 150px;
-    
-    /* Padding and margins */
     padding: 1em;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    
-    /* Text styles */
     color: white;
     text-decoration: none;
     font-size: .8em;
-    
-    /* Border styles */
     border: 3px solid white;
     border-radius: 15px;
-    
-    /* Background styles */
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(148, 148, 148);
     opacity: .5;
 }
 
