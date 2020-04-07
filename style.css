@@ -101,7 +101,8 @@ body {
     border-radius: 15px;
     
     /* Background styles */
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(235, 235, 235);
+    opacity: .5;
 }
 
 #projects {
@@ -127,6 +128,7 @@ body {
 
 
 .project-h1 {
+    padding: .5em;
     text-align: center;
 }
 
