@@ -1,13 +1,31 @@
 body {
   display: flex;
+  background-color: rgb(229, 153, 191);
 }
 
 textarea {
   font-size: 1.8rem;
+  margin-top: 7%;
+  border: 4px solid rgb(34, 34, 34);
+  border-radius: 15px;
 }
 
 button {
-  background-color: crimson;
-  color: antiquewhite;
+  background-color: rgb(34, 34, 34);
+  color: white;
   font-size: 1.5rem;
+  margin-top: 7%;
+  border: 4px solid white;
+  border-radius: 15px;
+}
+
+h1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+  margin-top: 7px;
+  color: white;
 }
