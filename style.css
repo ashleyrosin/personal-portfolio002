@@ -92,19 +92,31 @@ body {
 }
 
 #project-list {
-    display: flex;
-    justify-content: space-evenly;
+    grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
     
 }
 .project-pic {
-    display: flex;
-    height: 200px;
-    width: 100%;
-    float: left; 
+    font-size: 16px; 
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  padding-left: 310px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    
+  }
+
+  .project-pic:hover {
+    opacity: 0.3;
+
   }
 
 .project-tile {
   padding: 20px;
+  
 
 }
 
