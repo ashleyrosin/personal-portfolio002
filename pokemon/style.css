@@ -73,8 +73,7 @@ h1 {
   color: yellow;
   text-shadow: 5px 2px 0 blue;
   font-size: 50px;
-  margin-bottom: -10px;
-
+  margin-bottom: 15px;
 } 
 
 .button {
@@ -101,3 +100,6 @@ h1 {
   transform: translateY(4px);
 }
   
+.Pokemon {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
