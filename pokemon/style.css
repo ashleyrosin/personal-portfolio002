@@ -1,8 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
 
 body {
-background-color: rgb(57, 185, 57);
-
+background: linear-gradient(90deg, rgba(86,240,125,1) 0%, rgba(31,218,202,1) 49%, rgba(0,131,255,1) 100%);
 }
 
 
@@ -48,7 +47,7 @@ header {
   text-align: center;
   font-weight: bold;
   backface-visibility: hidden;
-  border-radius: 30px;
+  border-radius: 25px;
 }
 
 .card__face--front {
@@ -56,7 +55,7 @@ header {
 }
 
 .card__face--back {
-  background: blue;
+  background: rgb(62, 43, 236);
   transform: rotateY(180deg);
 }
 
@@ -73,6 +72,33 @@ h1 {
   url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); 
   color: yellow;
   text-shadow: 5px 2px 0 blue;
+  font-size: 50px;
+  margin-top: -15px;
+  margin-bottom: -10px;
 
 } 
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(238, 54, 238);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px white;
+  margin-bottom: 20px;
+}
+
+.button:hover {background-color: blueviolet;}
+
+.button:active {
+  background-color: blueviolet;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
   
